@@ -63,7 +63,7 @@ func main() {
 			t := time.Now()
 			elapsed := t.Sub(start)
 			if (elapsed < input.d){			// counting the time difference
-				time.Sleep(input.d - elapsed)		// sleeping the gourutine till we get the input.d parameter	
+				time.Sleep(input.d - elapsed)		// sleeping the goroutine till we get the input.d parameter	
 			}				
 			proccessing(x, ctx, setup)	// processing of Items
 			i = 0
